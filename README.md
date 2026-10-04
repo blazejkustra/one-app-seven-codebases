@@ -1,6 +1,6 @@
 # One app, seven codebases, built by agents
 
-<img src="results/poster.png" alt="Agent minutes to ship iOS + Android: React Native 35.8, Angular Native 46.8, Flutter 47.8, Lynx 67.8, Native (Swift + Kotlin) 69.4, Compose MP 85.1" width="480">
+<img src="results/poster-hook.png" alt="Native vs React Native: who ships iOS + Android faster? Every agent tested its app with Argent" width="480">
 
 The same **Markdown Notes** app built by AI agents (Claude Opus 5.5) in **[React Native](https://reactnative.dev)
 ([Expo](https://expo.dev))**, **[Swift](https://developer.apple.com/swift/) + [Kotlin](https://developer.android.com/kotlin)**,
@@ -15,6 +15,8 @@ Android. Every agent ran and tested its own app on a simulator or emulator with
 ## Results
 
 ### Shipping iOS + Android
+
+<img src="results/poster.png" alt="Agent minutes to ship iOS + Android: React Native 35.8, Angular Native 46.8, Flutter 47.8, Lynx 67.8, Native (Swift + Kotlin) 69.4, Compose MP 85.1" width="480">
 
 | | Agent minutes | Tool calls | Tokens (mostly cached) | API cost (est.)³ | Codebases |
 |---|---|---|---|---|---|
