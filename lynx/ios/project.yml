@@ -1,0 +1,40 @@
+name: MarkdownNotes
+options:
+  bundleIdPrefix: com.mdnotes
+  deploymentTarget:
+    iOS: "15.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    ENABLE_USER_SCRIPT_SANDBOXING: NO
+    CODE_SIGN_STYLE: Automatic
+targets:
+  MarkdownNotes:
+    type: application
+    platform: iOS
+    sources:
+      - path: MarkdownNotes
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mdnotes.lynx
+        PRODUCT_NAME: MarkdownNotes
+        INFOPLIST_FILE: MarkdownNotes/Info.plist
+        SWIFT_OBJC_BRIDGING_HEADER: MarkdownNotes/MarkdownNotes-Bridging-Header.h
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: ""
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+        OTHER_LDFLAGS: ["$(inherited)", "-ObjC"]
+    postCompileScripts:
+      - name: Embed Lynx bundle
+        basedOnDependencyAnalysis: false
+        script: |
+          set -euo pipefail
+          LYNX_ROOT="${SRCROOT}/.."
+          BUNDLE="$LYNX_ROOT/dist/main.lynx.bundle"
+          if [ ! -f "$BUNDLE" ]; then
+            echo "error: $BUNDLE not found. Run 'npm run build' in lynx/ first."
+            exit 1
+          fi
+          DEST="${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
+          mkdir -p "$DEST"
+          cp "$BUNDLE" "$DEST/main.lynx.bundle"

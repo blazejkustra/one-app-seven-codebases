@@ -1,0 +1,38 @@
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/lynx-family/Specs.git'
+
+platform :ios, '15.0'
+
+LYNX_VERSION = '4.1.0'
+
+target 'MarkdownNotes' do
+
+  pod 'Lynx', LYNX_VERSION, :subspecs => ['Framework']
+  pod 'PrimJS', '4.1.1', :subspecs => ['quickjs', 'napi']
+
+  pod 'LynxService', LYNX_VERSION, :subspecs => ['Image', 'Log', 'Http']
+  pod 'SDWebImage', '5.15.5'
+  pod 'SDWebImageWebPCoder', '0.11.0'
+
+  # <input> / <textarea> elements
+  pod 'XElement', LYNX_VERSION, :subspecs => ['Input']
+
+  # SQLite storage for notes and settings
+  pod 'SQLite.swift', '0.16.0'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['GCC_TREAT_WARNINGS_AS_ERRORS'] = 'NO'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+      disable = ['-Wno-error', '-Wno-c99-designator',
+                 '-Wno-deprecated-declarations', '-Wno-deprecated-implementations']
+      ['OTHER_CPLUSPLUSFLAGS', 'OTHER_CFLAGS'].each do |key|
+        flags = config.build_settings[key] || ['$(inherited)']
+        flags = [flags] unless flags.is_a?(Array)
+        config.build_settings[key] = flags + disable
+      end
+    end
+  end
+end
