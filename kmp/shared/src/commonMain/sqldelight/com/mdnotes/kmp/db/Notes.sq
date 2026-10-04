@@ -1,0 +1,41 @@
+CREATE TABLE note (
+    id TEXT NOT NULL PRIMARY KEY,
+    body TEXT NOT NULL,
+    starred INTEGER NOT NULL DEFAULT 0,
+    updated_at INTEGER NOT NULL
+);
+
+CREATE TABLE setting (
+    key TEXT NOT NULL PRIMARY KEY,
+    value TEXT NOT NULL
+);
+
+selectAll:
+SELECT * FROM note;
+
+selectById:
+SELECT * FROM note WHERE id = ?;
+
+upsert:
+INSERT OR REPLACE INTO note (id, body, starred, updated_at) VALUES (?, ?, ?, ?);
+
+updateBody:
+UPDATE note SET body = ?, updated_at = ? WHERE id = ?;
+
+updateStarred:
+UPDATE note SET starred = ? WHERE id = ?;
+
+deleteById:
+DELETE FROM note WHERE id = ?;
+
+deleteAll:
+DELETE FROM note;
+
+countNotes:
+SELECT count(*) FROM note;
+
+selectSetting:
+SELECT value FROM setting WHERE key = ?;
+
+putSetting:
+INSERT OR REPLACE INTO setting (key, value) VALUES (?, ?);
