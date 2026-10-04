@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=402">
+<title>Markdown Notes mockup</title>
+<style>
+  :root {
+    --bg:#F5F5F7; --surface:#FFFFFF; --text:#1C1C1E; --text2:#6E6E73; --text3:#8E8E93;
+    --fill:#E9E9EE; --sep:#E5E5EA; --accent:#5B4FE9; --accentSoft:#ECEBFF; --star:#F5A623;
+    --danger:#E5484D; --codeBg:#1C1C1E; --codeText:#F5F5F7;
+  }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html, body { width:402px; height:874px; overflow:hidden; background:var(--bg);
+    font-family:-apple-system, "SF Pro Text", "SF Pro", system-ui; color:var(--text);
+    -webkit-font-smoothing:antialiased; }
+  .mono { font-family:Menlo, monospace; }
+  .screen { position:absolute; inset:0; }
+  .status { height:62px; position:relative; }
+  .status .time { position:absolute; left:52px; top:21px; font-size:17px; font-weight:600; }
+  .header { height:52px; padding:0 20px; display:flex; align-items:center; justify-content:space-between; }
+  .header h1 { font-size:34px; font-weight:700; letter-spacing:0.2px; }
+  .plus { width:36px; height:36px; border-radius:18px; background:var(--accent); color:#fff;
+    display:flex; align-items:center; justify-content:center; font-size:24px; font-weight:400; line-height:1; }
+  .search { margin:4px 16px 0; height:40px; border-radius:10px; background:var(--fill);
+    padding-left:12px; display:flex; align-items:center; font-size:17px; color:var(--text3); }
+  .list { padding:12px 16px 16px; display:flex; flex-direction:column; gap:12px; }
+  .card { background:var(--surface); border-radius:14px; padding:16px; }
+  .card .t { font-size:17px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:22px; }
+  .card .s { margin-top:4px; font-size:15px; line-height:20px; color:var(--text2);
+    display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .card .f { margin-top:8px; display:flex; justify-content:space-between; align-items:center; height:18px; }
+  .card .d { font-size:13px; color:var(--text3); }
+  .card .st { font-size:16px; color:var(--star); }
+  .tabbar { position:absolute; left:0; right:0; bottom:0; height:90px; background:var(--surface);
+    border-top:1px solid var(--sep); display:flex; padding-bottom:34px; }
+  .tab { flex:1; display:flex; align-items:center; justify-content:center; font-size:15px; font-weight:500; color:var(--text3); }
+  .tab.active { color:var(--accent); font-weight:600; }
+  .nav { height:44px; display:flex; align-items:center; justify-content:space-between; }
+  .back { padding-left:16px; font-size:17px; color:var(--accent); }
+  .starbtn { width:44px; height:44px; margin-right:16px; display:flex; align-items:center; justify-content:center; font-size:22px; }
+  .seg { margin:4px 16px 0; height:36px; border-radius:9px; background:var(--fill); display:flex; padding:2px; }
+  .seg div { flex:1; display:flex; align-items:center; justify-content:center; font-size:15px; font-weight:500; color:var(--text2); border-radius:7px; }
+  .seg div.on { background:var(--surface); color:var(--text); font-weight:600; }
+  .editcard { position:absolute; left:16px; right:16px; top:158px; bottom:50px; background:var(--surface);
+    border-radius:14px; padding:16px; font-family:Menlo, monospace; font-size:15px; line-height:22px; white-space:pre-wrap; word-wrap:break-word; }
+  .preview { padding:12px 20px 0; font-size:17px; line-height:24px; }
+  .preview h1 { font-size:28px; font-weight:700; line-height:34px; margin-bottom:12px; }
+  .preview h2 { font-size:22px; font-weight:700; line-height:28px; margin:16px 0 8px; }
+  .preview h3 { font-size:18px; font-weight:600; line-height:24px; margin:12px 0 6px; }
+  .preview p { margin-bottom:12px; }
+  .preview code { font-family:Menlo, monospace; font-size:15px; color:var(--accent); background:var(--accentSoft); border-radius:4px; padding:0 3px; }
+  .preview ul, .preview ol { list-style:none; margin-bottom:12px; }
+  .preview li { display:flex; margin-bottom:4px; }
+  .preview li:last-child { margin-bottom:0; }
+  .preview li .m { margin-right:8px; }
+  .preview blockquote { border-left:3px solid var(--accent); padding-left:12px; font-style:italic; color:var(--text2); margin-bottom:12px; }
+  .preview pre { background:var(--codeBg); color:var(--codeText); border-radius:10px; padding:12px;
+    font-family:Menlo, monospace; font-size:14px; line-height:20px; margin-bottom:12px; white-space:pre-wrap; }
+  .group { margin:12px 16px 0; background:var(--surface); border-radius:14px; }
+  .row { height:52px; padding:0 16px; display:flex; align-items:center; justify-content:space-between; font-size:17px; position:relative; }
+  .row + .row::before { content:""; position:absolute; top:0; left:16px; right:0; height:1px; background:var(--sep); }
+  .val { color:var(--accent); }
+  .switch { width:51px; height:31px; border-radius:15.5px; background:var(--accent); position:relative; }
+  .switch::after { content:""; position:absolute; width:27px; height:27px; border-radius:50%; background:#fff; top:2px; right:2px; }
+  .footer { text-align:center; font-size:13px; color:var(--text3); margin-top:16px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const SEED = [
+  { id:'welcome', starred:true, updatedAt:new Date(2026,9,1,9,30), body:
+`# Welcome to Markdown Notes
+
+Write in **Markdown** and switch to *Preview* to see it rendered.
+
+## What works
+
+- Headings, **bold** and *italic*
+- Inline \`code\` and code blocks
+- Bullet and numbered lists
+
+> Notes are saved on your device automatically.
+
+\`\`\`
+const hello = "world";
+\`\`\`` },
+  { id:'groceries', starred:false, updatedAt:new Date(2026,8,30,18,5), body:
+`# Grocery list
+
+- Oat milk
+- Sourdough bread
+- Blueberries
+- Dark chocolate` },
+  { id:'meeting', starred:true, updatedAt:new Date(2026,8,28,14,0), body:
+`# Meeting notes
+
+## Q4 planning
+
+1. Ship the beta by **Nov 15**
+2. Hire one more designer
+3. Review analytics weekly` },
+  { id:'ideas', starred:false, updatedAt:new Date(2026,8,25,8,15), body:
+`# Ideas
+
+Build a tiny habit tracker. Maybe *one tap* per day, no accounts, no sync.` },
+];
+
+const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const title = b => b.split('\n')[0].replace(/^[#\s]+/, '').trim() || 'Untitled';
+const snippet = b => b.split('\n').slice(1).map(l => l.trim())
+  .filter(l => !l.startsWith('```'))
+  .map(l => l.replace(/^(#+\s*|- |\* |> |\d+\. )/, '').replace(/\*\*|\*|`/g, ''))
+  .filter(Boolean).join(' ');
+const date = d => d.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+
+function inline(s) {
+  return esc(s)
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
+    .replace(/\*([^*]+)\*/g, '<i>$1</i>');
+}
+function md(src) {
+  const lines = src.split('\n'); let out = '', i = 0;
+  while (i < lines.length) {
+    const l = lines[i];
+    if (l.startsWith('```')) { const buf = []; i++; while (i < lines.length && !lines[i].startsWith('```')) buf.push(lines[i++]); i++; out += `<pre>${esc(buf.join('\n'))}</pre>`; continue; }
+    let m;
+    if ((m = l.match(/^(#{1,3})\s+(.*)/))) { out += `<h${m[1].length}>${inline(m[2])}</h${m[1].length}>`; i++; continue; }
+    if (/^[-*] /.test(l)) { let li = ''; while (i < lines.length && /^[-*] /.test(lines[i])) li += `<li><span class="m">•</span><span>${inline(lines[i++].slice(2))}</span></li>`; out += `<ul>${li}</ul>`; continue; }
+    if (/^\d+\. /.test(l)) { let li = ''; while (i < lines.length && (m = lines[i].match(/^(\d+)\. (.*)/))) { li += `<li><span class="m">${m[1]}.</span><span>${inline(m[2])}</span></li>`; i++; } out += `<ol>${li}</ol>`; continue; }
+    if (l.startsWith('> ')) { const buf = []; while (i < lines.length && lines[i].startsWith('> ')) buf.push(lines[i++].slice(2)); out += `<blockquote>${inline(buf.join(' '))}</blockquote>`; continue; }
+    if (!l.trim()) { i++; continue; }
+    const buf = []; while (i < lines.length && lines[i].trim() && !/^(#|[-*] |\d+\. |> |```)/.test(lines[i])) buf.push(lines[i++]);
+    out += `<p>${inline(buf.join(' '))}</p>`;
+  }
+  return out;
+}
+
+const status = `<div class="status"><span class="time">9:41</span></div>`;
+const tabbar = active => `<div class="tabbar">${['Notes','Starred','Settings'].map(t => `<div class="tab ${t===active?'active':''}">${t}</div>`).join('')}</div>`;
+const card = n => `<div class="card"><div class="t">${esc(title(n.body))}</div>${snippet(n.body) ? `<div class="s">${esc(snippet(n.body))}</div>` : ''}<div class="f"><span class="d">${date(n.updatedAt)}</span>${n.starred ? '<span class="st">★</span>' : ''}</div></div>`;
+const editorTop = (n, mode) => `${status}<div class="nav"><span class="back">‹ Notes</span><span class="starbtn" style="color:${n.starred?'var(--star)':'var(--text3)'}">${n.starred?'★':'☆'}</span></div>
+  <div class="seg"><div class="${mode==='edit'?'on':''}">Edit</div><div class="${mode==='preview'?'on':''}">Preview</div></div>`;
+
+const screens = {
+  'notes': () => `${status}<div class="header"><h1>Notes</h1><div class="plus">+</div></div>
+    <div class="search">Search notes</div><div class="list">${SEED.map(card).join('')}</div>${tabbar('Notes')}`,
+  'editor-preview': () => `${editorTop(SEED[0], 'preview')}<div class="preview">${md(SEED[0].body)}</div>`,
+  'editor-edit': () => `${editorTop(SEED[0], 'edit')}<div class="editcard">${esc(SEED[0].body)}</div>`,
+  'starred': () => `${status}<div class="header"><h1>Starred</h1></div><div class="list">${SEED.filter(n => n.starred).map(card).join('')}</div>${tabbar('Starred')}`,
+  'settings': () => `${status}<div class="header"><h1>Settings</h1></div>
+    <div class="group"><div class="row"><span>Sort by</span><span class="val">Updated</span></div>
+      <div class="row"><span>Show snippets</span><span class="switch"></span></div>
+      <div class="row"><span>Notes</span><span style="color:var(--text3)">4</span></div></div>
+    <div class="group" style="margin-top:24px"><div class="row" style="justify-content:center;color:var(--danger)">Reset sample notes</div></div>
+    <div class="footer">Markdown Notes · v1.0</div>${tabbar('Settings')}`,
+};
+if (new URLSearchParams(location.search).get("zoom")) document.documentElement.style.zoom = 3;
+const which = new URLSearchParams(location.search).get('screen') || 'notes';
+document.getElementById('root').innerHTML = `<div class="screen">${screens[which]()}</div>`;
+</script>
+</body>
+</html>
