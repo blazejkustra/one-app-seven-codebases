@@ -2,9 +2,10 @@
 
 <img src="results/poster.png" alt="Agent minutes to ship iOS + Android: React Native 35.8, Angular Native 46.8, Flutter 47.8, Lynx 67.8, Native (Swift + Kotlin) 69.4, Compose MP 85.1" width="480">
 
-The same **Markdown Notes** app built by AI agents (Claude Opus 5.5) in **React Native (Expo)**,
-**Swift + Kotlin**, **Flutter**, **Compose Multiplatform**, **[Angular Native](https://ng-native.com)**
-and **[Lynx](https://lynxjs.org)**, then grown through five product changes and shipped on iOS and
+The same **Markdown Notes** app built by AI agents (Claude Opus 5.5) in **[React Native](https://reactnative.dev)
+([Expo](https://expo.dev))**, **[Swift](https://developer.apple.com/swift/) + [Kotlin](https://developer.android.com/kotlin)**,
+**[Flutter](https://flutter.dev)**, **[Compose Multiplatform](https://www.jetbrains.com/compose-multiplatform/)**,
+**[Angular Native](https://ng-native.com)** and **[Lynx](https://lynxjs.org)**, then grown through five product changes and shipped on iOS and
 Android. Every agent ran and tested its own app on a simulator or emulator with
 **[Argent](https://argent.swmansion.com)**.
 
