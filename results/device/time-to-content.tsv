@@ -1,0 +1,268 @@
+condition	app	launch	warmup	metric	value_ms	screen_lo_ms	screen_hi_ms	hook
+main	swift	0	1	probe_ttc	133.8			swiftui-onAppear+displayLink
+main	swift	1	0	probe_ttc	99.7			swiftui-onAppear+displayLink
+main	swift	2	0	probe_ttc	103.1			swiftui-onAppear+displayLink
+main	swift	3	0	probe_ttc	103.3			swiftui-onAppear+displayLink
+main	swift	4	0	probe_ttc	102.5			swiftui-onAppear+displayLink
+main	swift	5	0	probe_ttc	100.8			swiftui-onAppear+displayLink
+main	swift	6	0	probe_ttc	108.4			swiftui-onAppear+displayLink
+main	swift	7	0	probe_ttc	106.8			swiftui-onAppear+displayLink
+main	swift	8	0	probe_ttc	104.2			swiftui-onAppear+displayLink
+main	swift	9	0	probe_ttc	100.1			swiftui-onAppear+displayLink
+main	swift	10	0	probe_ttc	109.2			swiftui-onAppear+displayLink
+main	swift	11	0	probe_ttc	104.1			swiftui-onAppear+displayLink
+main	swift	12	0	probe_ttc	110.9			swiftui-onAppear+displayLink
+main	swift	13	0	probe_ttc	102.3			swiftui-onAppear+displayLink
+main	swift	14	0	probe_ttc	102.7			swiftui-onAppear+displayLink
+main	swift	15	0	probe_ttc	102.2			swiftui-onAppear+displayLink
+main	swift	16	0	probe_ttc	103.0			swiftui-onAppear+displayLink
+main	swift	17	0	probe_ttc	104.3			swiftui-onAppear+displayLink
+main	swift	18	0	probe_ttc	100.5			swiftui-onAppear+displayLink
+main	swift	19	0	probe_ttc	104.1			swiftui-onAppear+displayLink
+main	swift	20	0	probe_ttc	100.6			swiftui-onAppear+displayLink
+main	react-native	0	1	probe_ttc	354.7			rn-onLayout+rAF
+main	react-native	1	0	probe_ttc	87.0			rn-onLayout+rAF
+main	react-native	2	0	probe_ttc	92.4			rn-onLayout+rAF
+main	react-native	3	0	probe_ttc	95.4			rn-onLayout+rAF
+main	react-native	4	0	probe_ttc	86.9			rn-onLayout+rAF
+main	react-native	5	0	probe_ttc	89.2			rn-onLayout+rAF
+main	react-native	6	0	probe_ttc	93.4			rn-onLayout+rAF
+main	react-native	7	0	probe_ttc	90.8			rn-onLayout+rAF
+main	react-native	8	0	probe_ttc	88.8			rn-onLayout+rAF
+main	react-native	9	0	probe_ttc	88.6			rn-onLayout+rAF
+main	react-native	10	0	probe_ttc	89.0			rn-onLayout+rAF
+main	react-native	11	0	probe_ttc	97.5			rn-onLayout+rAF
+main	react-native	12	0	probe_ttc	87.0			rn-onLayout+rAF
+main	react-native	13	0	probe_ttc	90.5			rn-onLayout+rAF
+main	react-native	14	0	probe_ttc	98.9			rn-onLayout+rAF
+main	react-native	15	0	probe_ttc	92.0			rn-onLayout+rAF
+main	react-native	16	0	probe_ttc	87.3			rn-onLayout+rAF
+main	react-native	17	0	probe_ttc	89.8			rn-onLayout+rAF
+main	react-native	18	0	probe_ttc	88.4			rn-onLayout+rAF
+main	react-native	19	0	probe_ttc	90.8			rn-onLayout+rAF
+main	react-native	20	0	probe_ttc	90.1			rn-onLayout+rAF
+main	flutter	0	1	probe_ttc	368.0			flutter-build+addPostFrameCallback
+main	flutter	1	0	probe_ttc	101.5			flutter-build+addPostFrameCallback
+main	flutter	2	0	probe_ttc	96.7			flutter-build+addPostFrameCallback
+main	flutter	3	0	probe_ttc	96.8			flutter-build+addPostFrameCallback
+main	flutter	4	0	probe_ttc	96.8			flutter-build+addPostFrameCallback
+main	flutter	5	0	probe_ttc	99.2			flutter-build+addPostFrameCallback
+main	flutter	6	0	probe_ttc	101.6			flutter-build+addPostFrameCallback
+main	flutter	7	0	probe_ttc	97.3			flutter-build+addPostFrameCallback
+main	flutter	8	0	probe_ttc	96.8			flutter-build+addPostFrameCallback
+main	flutter	9	0	probe_ttc	98.7			flutter-build+addPostFrameCallback
+main	flutter	10	0	probe_ttc	96.8			flutter-build+addPostFrameCallback
+main	flutter	11	0	probe_ttc	105.0			flutter-build+addPostFrameCallback
+main	flutter	12	0	probe_ttc	98.8			flutter-build+addPostFrameCallback
+main	flutter	13	0	probe_ttc	101.3			flutter-build+addPostFrameCallback
+main	flutter	14	0	probe_ttc	101.0			flutter-build+addPostFrameCallback
+main	flutter	15	0	probe_ttc	97.6			flutter-build+addPostFrameCallback
+main	flutter	16	0	probe_ttc	98.5			flutter-build+addPostFrameCallback
+main	flutter	17	0	probe_ttc	99.0			flutter-build+addPostFrameCallback
+main	flutter	18	0	probe_ttc	98.0			flutter-build+addPostFrameCallback
+main	flutter	19	0	probe_ttc	96.2			flutter-build+addPostFrameCallback
+main	flutter	20	0	probe_ttc	102.9			flutter-build+addPostFrameCallback
+main	kmp	0	1	probe_ttc	431.2			compose-LaunchedEffect+withFrameNanos
+main	kmp	1	0	probe_ttc	116.0			compose-LaunchedEffect+withFrameNanos
+main	kmp	2	0	probe_ttc	112.9			compose-LaunchedEffect+withFrameNanos
+main	kmp	3	0	probe_ttc	121.9			compose-LaunchedEffect+withFrameNanos
+main	kmp	4	0	probe_ttc	124.3			compose-LaunchedEffect+withFrameNanos
+main	kmp	5	0	probe_ttc	114.6			compose-LaunchedEffect+withFrameNanos
+main	kmp	6	0	probe_ttc	116.5			compose-LaunchedEffect+withFrameNanos
+main	kmp	7	0	probe_ttc	115.1			compose-LaunchedEffect+withFrameNanos
+main	kmp	8	0	probe_ttc	111.7			compose-LaunchedEffect+withFrameNanos
+main	kmp	9	0	probe_ttc	118.6			compose-LaunchedEffect+withFrameNanos
+main	kmp	10	0	probe_ttc	142.2			compose-LaunchedEffect+withFrameNanos
+main	kmp	11	0	probe_ttc	145.8			compose-LaunchedEffect+withFrameNanos
+main	kmp	12	0	probe_ttc	110.1			compose-LaunchedEffect+withFrameNanos
+main	kmp	13	0	probe_ttc	105.1			compose-LaunchedEffect+withFrameNanos
+main	kmp	14	0	probe_ttc	115.4			compose-LaunchedEffect+withFrameNanos
+main	kmp	15	0	probe_ttc	118.6			compose-LaunchedEffect+withFrameNanos
+main	kmp	16	0	probe_ttc	131.1			compose-LaunchedEffect+withFrameNanos
+main	kmp	17	0	probe_ttc	92.7			compose-LaunchedEffect+withFrameNanos
+main	kmp	18	0	probe_ttc	119.0			compose-LaunchedEffect+withFrameNanos
+main	kmp	19	0	probe_ttc	125.6			compose-LaunchedEffect+withFrameNanos
+main	kmp	20	0	probe_ttc	112.2			compose-LaunchedEffect+withFrameNanos
+main	angular-native	0	1	probe_ttc	314.6			angular-native-layout+rAF
+main	angular-native	1	0	probe_ttc	98.2			angular-native-layout+rAF
+main	angular-native	2	0	probe_ttc	128.9			angular-native-layout+rAF
+main	angular-native	3	0	probe_ttc	127.3			angular-native-layout+rAF
+main	angular-native	4	0	probe_ttc	125.3			angular-native-layout+rAF
+main	angular-native	5	0	probe_ttc	132.3			angular-native-layout+rAF
+main	angular-native	6	0	probe_ttc	125.7			angular-native-layout+rAF
+main	angular-native	7	0	probe_ttc	133.2			angular-native-layout+rAF
+main	angular-native	8	0	probe_ttc	130.5			angular-native-layout+rAF
+main	angular-native	9	0	probe_ttc	129.9			angular-native-layout+rAF
+main	angular-native	10	0	probe_ttc	127.2			angular-native-layout+rAF
+main	angular-native	11	0	probe_ttc	122.5			angular-native-layout+rAF
+main	angular-native	12	0	probe_ttc	127.5			angular-native-layout+rAF
+main	angular-native	13	0	probe_ttc	123.7			angular-native-layout+rAF
+main	angular-native	14	0	probe_ttc	128.5			angular-native-layout+rAF
+main	angular-native	15	0	probe_ttc	132.8			angular-native-layout+rAF
+main	angular-native	16	0	probe_ttc	136.7			angular-native-layout+rAF
+main	angular-native	17	0	probe_ttc	129.2			angular-native-layout+rAF
+main	angular-native	18	0	probe_ttc	129.7			angular-native-layout+rAF
+main	angular-native	19	0	probe_ttc	128.1			angular-native-layout+rAF
+main	angular-native	20	0	probe_ttc	128.5			angular-native-layout+rAF
+main	lynx	0	1	probe_ttc	220.7			lynx-bindlayoutchange+rAF
+main	lynx	1	0	probe_ttc	106.5			lynx-bindlayoutchange+rAF
+main	lynx	2	0	probe_ttc	114.8			lynx-bindlayoutchange+rAF
+main	lynx	3	0	probe_ttc	107.0			lynx-bindlayoutchange+rAF
+main	lynx	4	0	probe_ttc	109.9			lynx-bindlayoutchange+rAF
+main	lynx	5	0	probe_ttc	114.4			lynx-bindlayoutchange+rAF
+main	lynx	6	0	probe_ttc	107.3			lynx-bindlayoutchange+rAF
+main	lynx	7	0	probe_ttc	109.8			lynx-bindlayoutchange+rAF
+main	lynx	8	0	probe_ttc	114.1			lynx-bindlayoutchange+rAF
+main	lynx	9	0	probe_ttc	106.3			lynx-bindlayoutchange+rAF
+main	lynx	10	0	probe_ttc	116.4			lynx-bindlayoutchange+rAF
+main	lynx	11	0	probe_ttc	108.7			lynx-bindlayoutchange+rAF
+main	lynx	12	0	probe_ttc	119.6			lynx-bindlayoutchange+rAF
+main	lynx	13	0	probe_ttc	117.0			lynx-bindlayoutchange+rAF
+main	lynx	14	0	probe_ttc	108.8			lynx-bindlayoutchange+rAF
+main	lynx	15	0	probe_ttc	102.3			lynx-bindlayoutchange+rAF
+main	lynx	16	0	probe_ttc	100.6			lynx-bindlayoutchange+rAF
+main	lynx	17	0	probe_ttc	95.8			lynx-bindlayoutchange+rAF
+main	lynx	18	0	probe_ttc	102.0			lynx-bindlayoutchange+rAF
+main	lynx	19	0	probe_ttc	106.9			lynx-bindlayoutchange+rAF
+main	lynx	20	0	probe_ttc	120.2			lynx-bindlayoutchange+rAF
+flutter_engine_check	flutter	0	1	probe_ttc	272.7			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	0	1	engine_first_render	717.2			flutter-FlutterViewDidRenderCallback
+flutter_engine_check	flutter	1	0	probe_ttc	96.8			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	1	0	engine_first_render	690.3			flutter-FlutterViewDidRenderCallback
+flutter_engine_check	flutter	2	0	probe_ttc	118.4			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	2	0	engine_first_render	711.4			flutter-FlutterViewDidRenderCallback
+flutter_engine_check	flutter	3	0	probe_ttc	100.8			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	3	0	engine_first_render	697.7			flutter-FlutterViewDidRenderCallback
+flutter_engine_check	flutter	4	0	probe_ttc	96.5			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	4	0	engine_first_render	697.9			flutter-FlutterViewDidRenderCallback
+flutter_engine_check	flutter	5	0	probe_ttc	100.6			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	5	0	engine_first_render	701.0			flutter-FlutterViewDidRenderCallback
+flutter_engine_check	flutter	6	0	probe_ttc	95.2			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	6	0	engine_first_render	694.7			flutter-FlutterViewDidRenderCallback
+flutter_engine_check	flutter	7	0	probe_ttc	108.9			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	7	0	engine_first_render	703.3			flutter-FlutterViewDidRenderCallback
+flutter_engine_check	flutter	8	0	probe_ttc	97.1			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	8	0	engine_first_render	701.9			flutter-FlutterViewDidRenderCallback
+flutter_engine_check	flutter	9	0	probe_ttc	97.4			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	9	0	engine_first_render	687.2			flutter-FlutterViewDidRenderCallback
+flutter_engine_check	flutter	10	0	probe_ttc	97.9			flutter-build+addPostFrameCallback
+flutter_engine_check	flutter	10	0	engine_first_render	690.7			flutter-FlutterViewDidRenderCallback
+screenshot_crosscheck	swift	1	0	probe_ttc	177.3	144	400	
+screenshot_crosscheck	swift	2	0	probe_ttc	172.7	134	395	
+screenshot_crosscheck	swift	3	0	probe_ttc	184.9	-3	357	
+screenshot_crosscheck	swift	4	0	probe_ttc	174.9	31	341	
+screenshot_crosscheck	swift	5	0	probe_ttc	171.9	152	417	
+screenshot_crosscheck	swift	6	0	probe_ttc	185.6	93	408	
+screenshot_crosscheck	swift	7	0	probe_ttc	189.2	161	430	
+screenshot_crosscheck	swift	8	0	probe_ttc	232.3	237	470	
+screenshot_crosscheck	swift	9	0	probe_ttc	174.7	147	437	
+screenshot_crosscheck	swift	10	0	probe_ttc	176.3	154	436	
+screenshot_crosscheck	swift	11	0	probe_ttc	188.3	-2	362	
+screenshot_crosscheck	swift	12	0	probe_ttc	185.2	132	429	
+screenshot_crosscheck	swift	13	0	probe_ttc	175.7	74	400	
+screenshot_crosscheck	swift	14	0	probe_ttc	183.1	99	423	
+screenshot_crosscheck	swift	15	0	probe_ttc	177.5	37	368	
+screenshot_crosscheck	swift	16	0	probe_ttc	174.9	150	426	
+screenshot_crosscheck	swift	17	0	probe_ttc	186.8	187	458	
+screenshot_crosscheck	swift	18	0	probe_ttc	188.1	109	427	
+screenshot_crosscheck	swift	19	0	probe_ttc	191.7	161	444	
+screenshot_crosscheck	swift	20	0	probe_ttc	180.2	54	382	
+screenshot_crosscheck	react-native	1	0	probe_ttc	245.3	55	398	
+screenshot_crosscheck	react-native	2	0	probe_ttc	144.4	89	410	
+screenshot_crosscheck	react-native	3	0	probe_ttc	137.4	-35	335	
+screenshot_crosscheck	react-native	4	0	probe_ttc	134.1	80	413	
+screenshot_crosscheck	react-native	5	0	probe_ttc	140.2	73	423	
+screenshot_crosscheck	react-native	6	0	probe_ttc	143.5	77	427	
+screenshot_crosscheck	react-native	7	0	probe_ttc	149.5	-39	362	
+screenshot_crosscheck	react-native	8	0	probe_ttc	158.0	19	373	
+screenshot_crosscheck	react-native	9	0	probe_ttc	142.3	161	460	
+screenshot_crosscheck	react-native	10	0	probe_ttc	155.9	86	425	
+screenshot_crosscheck	react-native	11	0	probe_ttc	153.2	146	439	
+screenshot_crosscheck	react-native	12	0	probe_ttc	139.8	165	467	
+screenshot_crosscheck	react-native	13	0	probe_ttc	160.5	156	478	
+screenshot_crosscheck	react-native	14	0	probe_ttc	165.8	167	435	
+screenshot_crosscheck	react-native	15	0	probe_ttc	153.9	173	454	
+screenshot_crosscheck	react-native	16	0	probe_ttc	155.5	64	393	
+screenshot_crosscheck	react-native	17	0	probe_ttc	175.6	-26	391	
+screenshot_crosscheck	react-native	18	0	probe_ttc	167.7	169	441	
+screenshot_crosscheck	react-native	19	0	probe_ttc	147.4	120	425	
+screenshot_crosscheck	react-native	20	0	probe_ttc	139.8	188	457	
+screenshot_crosscheck	flutter	1	0	probe_ttc	146.6	412	597	
+screenshot_crosscheck	flutter	2	0	probe_ttc	151.3	433	614	
+screenshot_crosscheck	flutter	3	0	probe_ttc	143.7	432	607	
+screenshot_crosscheck	flutter	4	0	probe_ttc	151.4	390	586	
+screenshot_crosscheck	flutter	5	0	probe_ttc	161.1	446	635	
+screenshot_crosscheck	flutter	6	0	probe_ttc	150.0	429	622	
+screenshot_crosscheck	flutter	7	0	probe_ttc	155.4	476	662	
+screenshot_crosscheck	flutter	8	0	probe_ttc	153.3	437	645	
+screenshot_crosscheck	flutter	9	0	probe_ttc	157.7	471	665	
+screenshot_crosscheck	flutter	10	0	probe_ttc	152.3	443	645	
+screenshot_crosscheck	flutter	11	0	probe_ttc	151.6	474	676	
+screenshot_crosscheck	flutter	12	0	probe_ttc	151.3	465	668	
+screenshot_crosscheck	flutter	13	0	probe_ttc	154.0	425	637	
+screenshot_crosscheck	flutter	14	0	probe_ttc	154.2	452	648	
+screenshot_crosscheck	flutter	15	0	probe_ttc	159.8	441	645	
+screenshot_crosscheck	flutter	16	0	probe_ttc	150.1	466	671	
+screenshot_crosscheck	flutter	17	0	probe_ttc	166.5	384	589	
+screenshot_crosscheck	flutter	18	0	probe_ttc	149.4	447	636	
+screenshot_crosscheck	flutter	19	0	probe_ttc	221.0	375	564	
+screenshot_crosscheck	kmp	1	0	probe_ttc	283.6	63	420	
+screenshot_crosscheck	kmp	2	0	probe_ttc	212.7	173	453	
+screenshot_crosscheck	kmp	3	0	probe_ttc	209.0	116	437	
+screenshot_crosscheck	kmp	4	0	probe_ttc	388.3	226	532	
+screenshot_crosscheck	kmp	5	0	probe_ttc	614.3	-86	791	
+screenshot_crosscheck	kmp	6	0	probe_ttc	253.9	108	482	
+screenshot_crosscheck	kmp	7	0	probe_ttc	229.0	145	487	
+screenshot_crosscheck	kmp	8	0	probe_ttc	232.2	175	502	
+screenshot_crosscheck	kmp	9	0	probe_ttc	214.5	84	440	
+screenshot_crosscheck	kmp	10	0	probe_ttc	227.6	87	446	
+screenshot_crosscheck	kmp	11	0	probe_ttc	219.5	104	482	
+screenshot_crosscheck	kmp	12	0	probe_ttc	207.8	63	420	
+screenshot_crosscheck	kmp	13	0	probe_ttc	215.4	99	454	
+screenshot_crosscheck	kmp	14	0	probe_ttc	260.5	56	449	
+screenshot_crosscheck	kmp	15	0	probe_ttc	208.1	98	450	
+screenshot_crosscheck	kmp	16	0	probe_ttc	211.9	177	502	
+screenshot_crosscheck	kmp	17	0	probe_ttc	232.2	88	464	
+screenshot_crosscheck	kmp	18	0	probe_ttc	231.9	90	472	
+screenshot_crosscheck	kmp	19	0	probe_ttc	211.5	129	465	
+screenshot_crosscheck	kmp	20	0	probe_ttc	209.8	85	441	
+screenshot_crosscheck	angular-native	1	0	probe_ttc	341.4	304	527	
+screenshot_crosscheck	angular-native	2	0	probe_ttc	253.0	58	432	
+screenshot_crosscheck	angular-native	3	0	probe_ttc	205.3	62	428	
+screenshot_crosscheck	angular-native	4	0	probe_ttc	243.8	162	499	
+screenshot_crosscheck	angular-native	5	0	probe_ttc	200.5	61	410	
+screenshot_crosscheck	angular-native	6	0	probe_ttc	203.0	187	482	
+screenshot_crosscheck	angular-native	7	0	probe_ttc	201.8	-50	385	
+screenshot_crosscheck	angular-native	8	0	probe_ttc	240.2	90	467	
+screenshot_crosscheck	angular-native	9	0	probe_ttc	202.2	-48	387	
+screenshot_crosscheck	angular-native	10	0	probe_ttc	207.1	98	464	
+screenshot_crosscheck	angular-native	11	0	probe_ttc	215.9	192	469	
+screenshot_crosscheck	angular-native	12	0	probe_ttc	214.6	218	506	
+screenshot_crosscheck	angular-native	13	0	probe_ttc	235.7	83	468	
+screenshot_crosscheck	angular-native	14	0	probe_ttc	260.6	214	514	
+screenshot_crosscheck	angular-native	15	0	probe_ttc	229.8	114	468	
+screenshot_crosscheck	angular-native	16	0	probe_ttc	196.4	196	504	
+screenshot_crosscheck	angular-native	17	0	probe_ttc	216.1	102	477	
+screenshot_crosscheck	angular-native	18	0	probe_ttc	240.0	117	480	
+screenshot_crosscheck	angular-native	19	0	probe_ttc	215.3	183	479	
+screenshot_crosscheck	angular-native	20	0	probe_ttc	238.7	160	457	
+screenshot_crosscheck	lynx	1	0	probe_ttc	235.4	54	439	
+screenshot_crosscheck	lynx	2	0	probe_ttc	189.3	146	472	
+screenshot_crosscheck	lynx	3	0	probe_ttc	181.5	196	492	
+screenshot_crosscheck	lynx	4	0	probe_ttc	186.1	94	470	
+screenshot_crosscheck	lynx	5	0	probe_ttc	195.1	-29	376	
+screenshot_crosscheck	lynx	6	0	probe_ttc	188.9	202	498	
+screenshot_crosscheck	lynx	7	0	probe_ttc	195.4	100	514	
+screenshot_crosscheck	lynx	8	0	probe_ttc	253.5	-1	540	
+screenshot_crosscheck	lynx	9	0	probe_ttc	186.5	-38	376	
+screenshot_crosscheck	lynx	10	0	probe_ttc	199.4	211	533	
+screenshot_crosscheck	lynx	11	0	probe_ttc	189.0	192	495	
+screenshot_crosscheck	lynx	12	0	probe_ttc	212.9	92	500	
+screenshot_crosscheck	lynx	13	0	probe_ttc	198.0	92	488	
+screenshot_crosscheck	lynx	14	0	probe_ttc	196.3	79	469	
+screenshot_crosscheck	lynx	15	0	probe_ttc	205.6	94	487	
+screenshot_crosscheck	lynx	16	0	probe_ttc	209.0	-52	397	
+screenshot_crosscheck	lynx	17	0	probe_ttc	227.7	-15	373	
+screenshot_crosscheck	lynx	18	0	probe_ttc	213.9	-27	435	
+screenshot_crosscheck	lynx	19	0	probe_ttc	220.5	-99	393	
+screenshot_crosscheck	lynx	20	0	probe_ttc	190.6	-12	518	

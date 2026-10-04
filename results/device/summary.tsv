@@ -1,0 +1,7 @@
+app	first_frame_med	min-max	responsive_med	min-max	ttc_lower_med	ttc_upper_med	ttc_upper_min-max	download_MB	install_MB
+swift	176	168-196	184	171-190	424	552	547-559	1.6	4.0
+react-native	122	117-130	168	163-172	424	550	545-641	8.6	29.0
+flutter	139	129-145	167	164-177	420	592	543-681	7.2	17.2
+kmp	190	178-206	206	197-297	425	552	544-595	10.8	30.0
+angular-native	122	116-127	140	116-181	424	550	544-558	9.4	31.0
+lynx	131	123-149	164	157-171	420	554	537-562	4.6	11.2

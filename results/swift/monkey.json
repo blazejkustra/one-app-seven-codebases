@@ -1,0 +1,14 @@
+{
+  "bundle": "com.mdnotes.swift",
+  "taps": 15000,
+  "typed": 58,
+  "seconds": 23898,
+  "crash_reports": 0,
+  "segments": 1,
+  "events": [
+    "tap 598: app state 3 \u2014 relaunching",
+    "tap 644: app state 3 \u2014 relaunching"
+  ],
+  "crashes": 0,
+  "left_app": 2
+}

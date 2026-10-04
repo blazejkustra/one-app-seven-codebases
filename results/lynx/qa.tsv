@@ -1,0 +1,32 @@
+test01_seedNotesInOrder	PASS	
+test02_cardShowsSnippetAndDate	FAIL	XCTAssertNotNil failed - snippet not rendered as specified 
+test03_existingNoteOpensInPreview	PASS	
+test04_previewRendersMarkdown	PASS	
+test05_editModeShowsRawMarkdownWithoutKeyboard	PASS	
+test06_starShowsInStarredTab	PASS	
+test07_searchFiltersAndShowsEmptyState	PASS	
+test08_newNoteOpensFocusedEditor	PASS	
+test09_newNoteIsSavedAtTop	FAIL	Failed to synthesize event: Neither element nor any descendant has keyboard focus. Event dispatch snapshot: Application, pid: 53415, label: 'Markdown Notes' 
+test10_emptyNoteIsDeleted	FAIL	Failed to synthesize event: Neither element nor any descendant has keyboard focus. Event dispatch snapshot: Application, pid: 53552, label: 'Markdown Notes' 
+test11_keyboardDoesNotCoverEditor	PASS	
+test12_editUpdatesDateOrderAndPersists	FAIL	Failed to synthesize event: Neither element nor any descendant has keyboard focus. Event dispatch snapshot: Application, pid: 53841, label: 'Markdown Notes' 
+test13_starPersistsAfterImmediateKill	PASS	
+test14_sortByTitle	PASS	
+test15_hideSnippets	PASS	
+test16_notesCount	PASS	
+test17_resetRestoresSeed	PASS	
+test18_backReturnsToStarredTab	PASS	
+test19_starredEmptyState	PASS	
+test20_allIdentifiersPresent	PASS	
+test21_tagFilter	PASS	
+test22_tagChipsAndCleanSnippet	PASS	
+test23_tagFilterCombinesWithSearch	PASS	
+test24_newTagAppearsInFilterRow	FAIL	Failed to synthesize event: Neither element nor any descendant has keyboard focus. Event dispatch snapshot: Application, pid: 55533, label: 'Markdown Notes' 
+test25_checklistProgressOnCard	FAIL	XCTAssertNotNil failed - progress label missing 
+test26_toggleTaskRewritesMarkdownAndPersists	FAIL	XCTAssertNotNil failed 
+test27_deleteAndUndo	FAIL	XCTAssertNotNil failed - undo did not restore updatedAt 
+test28_toastExpiresAndDeletePersists	PASS	
+test29_deleteFromStarredReturnsToStarred	PASS	
+test30_darkModeAppliesAndPersists	PASS	
+test31_editorFollowsDarkMode	PASS	
+test32_shareSheetOpens	PASS	

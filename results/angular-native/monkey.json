@@ -1,0 +1,15 @@
+{
+  "bundle": "com.mdnotes.angularnative",
+  "taps": 15000,
+  "typed": 87,
+  "seconds": 21904,
+  "crash_reports": 0,
+  "segments": 1,
+  "events": [
+    "tap 673: app state 3 \u2014 relaunching",
+    "tap 1302: app state 3 \u2014 relaunching",
+    "tap 1994: app state 3 \u2014 relaunching"
+  ],
+  "crashes": 0,
+  "left_app": 3
+}

@@ -1,0 +1,9 @@
+{
+  "_note": "Every failed QA check was reproduced by hand with argent and classified (see results/<framework>/qa-review.md).",
+  "swift":          {"functional_bugs": 0, "accessibility_defects": 0, "flaky_checks": 0},
+  "react-native":   {"functional_bugs": 0, "accessibility_defects": 1, "flaky_checks": 0},
+  "flutter":        {"functional_bugs": 0, "accessibility_defects": 0, "flaky_checks": 0},
+  "kmp":            {"functional_bugs": 0, "accessibility_defects": 0, "flaky_checks": 0},
+  "angular-native": {"functional_bugs": 0, "accessibility_defects": 0, "flaky_checks": 1},
+  "lynx":           {"functional_bugs": 0, "accessibility_defects": 2, "flaky_checks": 0}
+}

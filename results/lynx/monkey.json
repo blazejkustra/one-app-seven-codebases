@@ -1,0 +1,14 @@
+{
+  "bundle": "com.mdnotes.lynx",
+  "taps": 15000,
+  "typed": 75,
+  "seconds": 12958,
+  "crash_reports": 0,
+  "segments": 1,
+  "events": [
+    "tap 617: app state 3 \u2014 relaunching",
+    "tap 2185: app state 3 \u2014 relaunching"
+  ],
+  "crashes": 0,
+  "left_app": 2
+}

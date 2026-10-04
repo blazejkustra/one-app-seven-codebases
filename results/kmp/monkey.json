@@ -1,0 +1,15 @@
+{
+  "bundle": "com.mdnotes.kmp",
+  "taps": 15000,
+  "typed": 82,
+  "seconds": 20883,
+  "crash_reports": 0,
+  "segments": 2,
+  "events": [
+    "tap 388: app state 3 \u2014 relaunching",
+    "tap 1485: app state 3 \u2014 relaunching",
+    "tap 2201: app state 3 \u2014 relaunching"
+  ],
+  "crashes": 0,
+  "left_app": 3
+}

@@ -1,0 +1,7 @@
+# framework	bundle id	simulator .app	device .app
+swift	com.mdnotes.swift	swift/build/DerivedData/Build/Products/Release-iphonesimulator/MarkdownNotes.app	swift/build/DerivedData/Build/Products/Release-iphoneos/MarkdownNotes.app
+react-native	com.mdnotes.reactnative	react-native/ios/build/sim/Build/Products/Release-iphonesimulator/MarkdownNotes.app	react-native/ios/build/device/Build/Products/Release-iphoneos/MarkdownNotes.app
+flutter	com.mdnotes.flutter	flutter/build/ios/iphonesimulator/Runner.app	flutter/build/ios/iphoneos/Runner.app
+kmp	com.mdnotes.kmp	kmp/build/ios/Build/Products/Release-iphonesimulator/Markdown Notes.app	kmp/build/ios/Build/Products/Release-iphoneos/Markdown Notes.app
+angular-native	com.mdnotes.angularnative	angular-native/build/sim/Build/Products/Release-iphonesimulator/MarkdownNotes.app	angular-native/build/device/Build/Products/Release-iphoneos/MarkdownNotes.app
+lynx	com.mdnotes.lynx	lynx/ios/build/Build/Products/Release-iphonesimulator/MarkdownNotes.app	lynx/ios/build/Build/Products/Release-iphoneos/MarkdownNotes.app

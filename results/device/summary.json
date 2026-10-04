@@ -1,0 +1,446 @@
+{
+  "swift": {
+    "first_frame_ms": {
+      "median": 176,
+      "min": 168,
+      "max": 196,
+      "values": [
+        196,
+        175,
+        173,
+        171,
+        173,
+        178,
+        176,
+        178,
+        178,
+        168
+      ]
+    },
+    "responsive_ms": {
+      "median": 184,
+      "min": 171,
+      "max": 190,
+      "values": [
+        190,
+        181,
+        190,
+        171,
+        171,
+        177,
+        189,
+        189,
+        185,
+        183
+      ]
+    },
+    "ttc_upper_ms": {
+      "median": 552,
+      "min": 547,
+      "max": 559,
+      "values": [
+        554,
+        547,
+        558,
+        552,
+        552,
+        553,
+        551,
+        559,
+        555,
+        547
+      ]
+    },
+    "ttc_lower_ms": {
+      "median": 424,
+      "min": 420,
+      "max": 428,
+      "values": [
+        425,
+        420,
+        425,
+        425,
+        421,
+        428,
+        424,
+        422,
+        426,
+        421
+      ]
+    },
+    "ttc_frame_gap_ms": 122,
+    "thinned_download_mb": 1.6,
+    "thinned_install_mb": 4.0,
+    "cards_ok": true
+  },
+  "react-native": {
+    "first_frame_ms": {
+      "median": 122,
+      "min": 117,
+      "max": 130,
+      "values": [
+        130,
+        125,
+        121,
+        117,
+        119,
+        118,
+        121,
+        122,
+        124,
+        123
+      ]
+    },
+    "responsive_ms": {
+      "median": 168,
+      "min": 163,
+      "max": 172,
+      "values": [
+        172,
+        169,
+        168,
+        168,
+        166,
+        163,
+        167,
+        166,
+        170,
+        167
+      ]
+    },
+    "ttc_upper_ms": {
+      "median": 550,
+      "min": 545,
+      "max": 641,
+      "values": [
+        545,
+        557,
+        549,
+        585,
+        641,
+        549,
+        546,
+        553,
+        548,
+        551
+      ]
+    },
+    "ttc_lower_ms": {
+      "median": 424,
+      "min": 420,
+      "max": 463,
+      "values": [
+        420,
+        424,
+        422,
+        458,
+        463,
+        424,
+        420,
+        427,
+        420,
+        424
+      ]
+    },
+    "ttc_frame_gap_ms": 122,
+    "thinned_download_mb": 8.6,
+    "thinned_install_mb": 29.0,
+    "cards_ok": true
+  },
+  "flutter": {
+    "first_frame_ms": {
+      "median": 139,
+      "min": 129,
+      "max": 145,
+      "values": [
+        142,
+        139,
+        139,
+        132,
+        141,
+        142,
+        145,
+        136,
+        135,
+        129
+      ]
+    },
+    "responsive_ms": {
+      "median": 167,
+      "min": 164,
+      "max": 177,
+      "values": [
+        174,
+        166,
+        164,
+        168,
+        164,
+        177,
+        172,
+        170,
+        165,
+        167
+      ]
+    },
+    "ttc_upper_ms": {
+      "median": 592,
+      "min": 543,
+      "max": 681,
+      "values": [
+        543,
+        548,
+        597,
+        548,
+        546,
+        594,
+        681,
+        591,
+        602,
+        594
+      ]
+    },
+    "ttc_lower_ms": {
+      "median": 420,
+      "min": 414,
+      "max": 557,
+      "values": [
+        417,
+        420,
+        420,
+        420,
+        420,
+        416,
+        557,
+        414,
+        424,
+        416
+      ]
+    },
+    "ttc_frame_gap_ms": 124,
+    "thinned_download_mb": 7.2,
+    "thinned_install_mb": 17.2,
+    "cards_ok": true
+  },
+  "kmp": {
+    "first_frame_ms": {
+      "median": 190,
+      "min": 178,
+      "max": 206,
+      "values": [
+        198,
+        194,
+        192,
+        206,
+        187,
+        178,
+        183,
+        187,
+        194,
+        187
+      ]
+    },
+    "responsive_ms": {
+      "median": 206,
+      "min": 197,
+      "max": 297,
+      "values": [
+        197,
+        199,
+        297,
+        209,
+        205,
+        209,
+        200,
+        202,
+        210,
+        207
+      ]
+    },
+    "ttc_upper_ms": {
+      "median": 552,
+      "min": 544,
+      "max": 595,
+      "values": [
+        595,
+        556,
+        550,
+        552,
+        557,
+        549,
+        563,
+        544,
+        549,
+        551
+      ]
+    },
+    "ttc_lower_ms": {
+      "median": 425,
+      "min": 419,
+      "max": 433,
+      "values": [
+        419,
+        428,
+        424,
+        426,
+        426,
+        422,
+        433,
+        420,
+        423,
+        426
+      ]
+    },
+    "ttc_frame_gap_ms": 122,
+    "thinned_download_mb": 10.8,
+    "thinned_install_mb": 30.0,
+    "cards_ok": true
+  },
+  "angular-native": {
+    "first_frame_ms": {
+      "median": 122,
+      "min": 116,
+      "max": 127,
+      "values": [
+        125,
+        117,
+        120,
+        127,
+        124,
+        122,
+        126,
+        121,
+        121,
+        116
+      ]
+    },
+    "responsive_ms": {
+      "median": 140,
+      "min": 116,
+      "max": 181,
+      "values": [
+        170,
+        125,
+        153,
+        181,
+        122,
+        126,
+        167,
+        116,
+        169,
+        123
+      ]
+    },
+    "ttc_upper_ms": {
+      "median": 550,
+      "min": 544,
+      "max": 558,
+      "values": [
+        545,
+        558,
+        550,
+        547,
+        550,
+        553,
+        551,
+        544,
+        553,
+        545
+      ]
+    },
+    "ttc_lower_ms": {
+      "median": 424,
+      "min": 418,
+      "max": 427,
+      "values": [
+        420,
+        426,
+        425,
+        421,
+        423,
+        427,
+        424,
+        418,
+        427,
+        420
+      ]
+    },
+    "ttc_frame_gap_ms": 122,
+    "thinned_download_mb": 9.4,
+    "thinned_install_mb": 31.0,
+    "cards_ok": true
+  },
+  "lynx": {
+    "first_frame_ms": {
+      "median": 131,
+      "min": 123,
+      "max": 149,
+      "values": [
+        149,
+        128,
+        135,
+        123,
+        131,
+        131,
+        131,
+        134,
+        140,
+        131
+      ]
+    },
+    "responsive_ms": {
+      "median": 164,
+      "min": 157,
+      "max": 171,
+      "values": [
+        164,
+        163,
+        165,
+        171,
+        157,
+        164,
+        167,
+        161,
+        161,
+        169
+      ]
+    },
+    "ttc_upper_ms": {
+      "median": 554,
+      "min": 537,
+      "max": 562,
+      "values": [
+        561,
+        555,
+        554,
+        557,
+        562,
+        537,
+        539,
+        551,
+        557,
+        539
+      ]
+    },
+    "ttc_lower_ms": {
+      "median": 420,
+      "min": 347,
+      "max": 426,
+      "values": [
+        426,
+        423,
+        425,
+        419,
+        422,
+        347,
+        411,
+        422,
+        419,
+        412
+      ]
+    },
+    "ttc_frame_gap_ms": 122,
+    "thinned_download_mb": 4.6,
+    "thinned_install_mb": 11.2,
+    "cards_ok": true
+  }
+}

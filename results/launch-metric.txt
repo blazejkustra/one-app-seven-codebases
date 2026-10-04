@@ -1,0 +1,12 @@
+host average: 0.858, relative standard deviation: 4.484%
+swift average: 0.713, relative standard deviation: 4.710%
+react-native average: 0.580, relative standard deviation: 2.441%
+flutter average: 0.662, relative standard deviation: 0.531%
+kmp average: 0.694, relative standard deviation: 2.777%
+angular-native average: 0.580, relative standard deviation: 1.319%
+lynx average: 0.629, relative standard deviation: 3.864%
+
+# XCTApplicationLaunchMetric (process start -> first frame), 10 launches each, iPhone 17 Pro simulator (iOS 26.5).
+# "host" is the harness's empty SwiftUI app (Debug build) as a simulator floor reference.
+# For React Native / Angular Native the "first frame" is the native splash screen shown before JS renders,
+# so this metric is not comparable across stacks; see results/device/time-to-content.md for time to content on a real iPhone.

@@ -1,0 +1,39 @@
+name: Harness
+options:
+  bundleIdPrefix: com.mdnotes.harness
+  deploymentTarget:
+    iOS: "18.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGNING_ALLOWED: "YES"
+    CODE_SIGN_IDENTITY: "-"
+targets:
+  HarnessHost:
+    type: application
+    platform: iOS
+    sources: [Host]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.mdnotes.harness.host
+  HarnessUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: HarnessHost
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: HarnessHost
+schemes:
+  HarnessUITests:
+    build:
+      targets:
+        HarnessHost: all
+        HarnessUITests: [test]
+    test:
+      targets: [HarnessUITests]

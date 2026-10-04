@@ -1,0 +1,39 @@
+{
+  "01-notes": {
+    "ssim": 0.992,
+    "layout_ssim": 0.9981,
+    "mean_abs_diff": 0.64
+  },
+  "02-editor-preview": {
+    "ssim": 0.9754,
+    "layout_ssim": 0.9941,
+    "mean_abs_diff": 1.73
+  },
+  "03-editor-edit": {
+    "ssim": 0.9826,
+    "layout_ssim": 0.9975,
+    "mean_abs_diff": 1.4
+  },
+  "04-starred": {
+    "ssim": 0.9952,
+    "layout_ssim": 0.998,
+    "mean_abs_diff": 0.36
+  },
+  "05-settings": {
+    "ssim": 0.9899,
+    "layout_ssim": 0.998,
+    "mean_abs_diff": 0.7
+  },
+  "06-checklist-preview": {
+    "ssim": 0.9969,
+    "layout_ssim": 0.9994,
+    "mean_abs_diff": 0.23
+  },
+  "07-notes-dark": {
+    "ssim": 0.99,
+    "layout_ssim": 0.9975,
+    "mean_abs_diff": 0.77
+  },
+  "mean_ssim": 0.9889,
+  "mean_layout_ssim": 0.9975
+}

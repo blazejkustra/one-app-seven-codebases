@@ -1,0 +1,13 @@
+{
+  "bundle": "com.mdnotes.reactnative",
+  "taps": 15000,
+  "typed": 26,
+  "seconds": 22727,
+  "crash_reports": 0,
+  "segments": 1,
+  "events": [
+    "tap 693: app state 3 \u2014 relaunching"
+  ],
+  "crashes": 0,
+  "left_app": 1
+}

@@ -1,0 +1,971 @@
+{
+  "react-native": {
+    "name": "React Native (Expo)",
+    "agent": {
+      "v1": {
+        "sec": 820,
+        "tools": 59,
+        "turns": 98,
+        "tokens": 6467740,
+        "fresh": 169437,
+        "cached": 6283681,
+        "out_est": 14622
+      },
+      "v2-tags": {
+        "sec": 147,
+        "tools": 17,
+        "turns": 28,
+        "tokens": 2810843,
+        "fresh": 30410,
+        "cached": 2776230,
+        "out_est": 4203
+      },
+      "v3-checklists": {
+        "sec": 141,
+        "tools": 19,
+        "turns": 31,
+        "tokens": 3472598,
+        "fresh": 26764,
+        "cached": 3442413,
+        "out_est": 3421
+      },
+      "v4-delete-undo": {
+        "sec": 113,
+        "tools": 17,
+        "turns": 26,
+        "tokens": 3146977,
+        "fresh": 24946,
+        "cached": 3119258,
+        "out_est": 2773
+      },
+      "v5-dark-mode": {
+        "sec": 289,
+        "tools": 31,
+        "turns": 50,
+        "tokens": 6701533,
+        "fresh": 46135,
+        "cached": 6650532,
+        "out_est": 4866
+      },
+      "v6-share": {
+        "sec": 65,
+        "tools": 12,
+        "turns": 17,
+        "tokens": 2750756,
+        "fresh": 13248,
+        "cached": 2736366,
+        "out_est": 1142
+      }
+    },
+    "loc": [
+      1586,
+      24
+    ],
+    "churn": {
+      "Markdown": 1703
+    },
+    "size": {
+      "simulator_app_kb": 56036,
+      "device_app_kb": 28960,
+      "device_ipa_zip_kb": 8279
+    },
+    "fidelity": {
+      "01-notes": {
+        "ssim": 0.8958,
+        "layout_ssim": 0.9291,
+        "mean_abs_diff": 6.96
+      },
+      "02-editor-preview": {
+        "ssim": 0.9054,
+        "layout_ssim": 0.9171,
+        "mean_abs_diff": 7.87
+      },
+      "03-editor-edit": {
+        "ssim": 0.9224,
+        "layout_ssim": 0.9186,
+        "mean_abs_diff": 5.98
+      },
+      "04-starred": {
+        "ssim": 0.9363,
+        "layout_ssim": 0.9533,
+        "mean_abs_diff": 4.49
+      },
+      "05-settings": {
+        "ssim": 0.9476,
+        "layout_ssim": 0.96,
+        "mean_abs_diff": 3.2
+      },
+      "06-checklist-preview": {
+        "ssim": 0.9654,
+        "layout_ssim": 0.9741,
+        "mean_abs_diff": 2.63
+      },
+      "07-notes-dark": {
+        "ssim": 0.8925,
+        "layout_ssim": 0.9268,
+        "mean_abs_diff": 6.73
+      },
+      "mean_ssim": 0.9236,
+      "mean_layout_ssim": 0.9399
+    },
+    "coldstart": {
+      "runs_ms": [
+        688,
+        752,
+        693,
+        688,
+        697,
+        700,
+        652,
+        743,
+        662,
+        662
+      ],
+      "median_ms": 690.5,
+      "min_ms": 652,
+      "max_ms": 752
+    },
+    "monkey": {
+      "bundle": "com.mdnotes.reactnative",
+      "taps": 15000,
+      "typed": 26,
+      "seconds": 22727,
+      "crash_reports": 0,
+      "segments": 1,
+      "events": [
+        "tap 693: app state 3 \u2014 relaunching"
+      ],
+      "crashes": 0,
+      "left_app": 1
+    },
+    "qa": {
+      "total": 32,
+      "fail": [
+        "test02_cardShowsSnippetAndDate",
+        "test09_newNoteIsSavedAtTop",
+        "test12_editUpdatesDateOrderAndPersists",
+        "test25_checklistProgressOnCard",
+        "test26_toggleTaskRewritesMarkdownAndPersists",
+        "test27_deleteAndUndo"
+      ]
+    },
+    "review": {
+      "functional_bugs": 0,
+      "accessibility_defects": 1,
+      "flaky_checks": 0
+    },
+    "minutes_v1": 13.7,
+    "minutes_iterations": 12.6,
+    "minutes_total": 26.2,
+    "tools_total": 155,
+    "tokens_total": 25350447,
+    "tokens_fresh": 310940,
+    "tokens_out_est": 31027
+  },
+  "swift": {
+    "name": "Swift (SwiftUI)",
+    "agent": {
+      "v1": {
+        "sec": 901,
+        "tools": 69,
+        "turns": 111,
+        "tokens": 7645549,
+        "fresh": 191336,
+        "cached": 7433268,
+        "out_est": 20945
+      },
+      "v2-tags": {
+        "sec": 232,
+        "tools": 19,
+        "turns": 32,
+        "tokens": 3626116,
+        "fresh": 35812,
+        "cached": 3584860,
+        "out_est": 5444
+      },
+      "v3-checklists": {
+        "sec": 195,
+        "tools": 17,
+        "turns": 27,
+        "tokens": 3433397,
+        "fresh": 30733,
+        "cached": 3398187,
+        "out_est": 4477
+      },
+      "v4-delete-undo": {
+        "sec": 167,
+        "tools": 17,
+        "turns": 25,
+        "tokens": 3553965,
+        "fresh": 26686,
+        "cached": 3524700,
+        "out_est": 2579
+      },
+      "v5-dark-mode": {
+        "sec": 189,
+        "tools": 20,
+        "turns": 31,
+        "tokens": 4874508,
+        "fresh": 31422,
+        "cached": 4839635,
+        "out_est": 3451
+      },
+      "v6-share": {
+        "sec": 129,
+        "tools": 13,
+        "turns": 18,
+        "tokens": 3259889,
+        "fresh": 16659,
+        "cached": 3241884,
+        "out_est": 1346
+      }
+    },
+    "loc": [
+      1573,
+      19
+    ],
+    "churn": {
+      "Markdown": 1765
+    },
+    "size": {
+      "simulator_app_kb": 15024,
+      "device_app_kb": 7484,
+      "device_ipa_zip_kb": 2172
+    },
+    "fidelity": {
+      "01-notes": {
+        "ssim": 0.8297,
+        "layout_ssim": 0.7647,
+        "mean_abs_diff": 10.45
+      },
+      "02-editor-preview": {
+        "ssim": 0.8934,
+        "layout_ssim": 0.8882,
+        "mean_abs_diff": 9.37
+      },
+      "03-editor-edit": {
+        "ssim": 0.9039,
+        "layout_ssim": 0.8409,
+        "mean_abs_diff": 7.26
+      },
+      "04-starred": {
+        "ssim": 0.9101,
+        "layout_ssim": 0.9031,
+        "mean_abs_diff": 5.75
+      },
+      "05-settings": {
+        "ssim": 0.9468,
+        "layout_ssim": 0.9585,
+        "mean_abs_diff": 3.23
+      },
+      "06-checklist-preview": {
+        "ssim": 0.9622,
+        "layout_ssim": 0.9699,
+        "mean_abs_diff": 2.84
+      },
+      "07-notes-dark": {
+        "ssim": 0.77,
+        "layout_ssim": 0.703,
+        "mean_abs_diff": 10.94
+      },
+      "mean_ssim": 0.888,
+      "mean_layout_ssim": 0.8612
+    },
+    "coldstart": {
+      "runs_ms": [
+        763,
+        728,
+        762,
+        743,
+        772,
+        753,
+        758,
+        737,
+        763,
+        782
+      ],
+      "median_ms": 760.0,
+      "min_ms": 728,
+      "max_ms": 782
+    },
+    "monkey": {
+      "bundle": "com.mdnotes.swift",
+      "taps": 15000,
+      "typed": 58,
+      "seconds": 23898,
+      "crash_reports": 0,
+      "segments": 1,
+      "events": [
+        "tap 598: app state 3 \u2014 relaunching",
+        "tap 644: app state 3 \u2014 relaunching"
+      ],
+      "crashes": 0,
+      "left_app": 2
+    },
+    "qa": {
+      "total": 32,
+      "fail": []
+    },
+    "review": {
+      "functional_bugs": 0,
+      "accessibility_defects": 0,
+      "flaky_checks": 0
+    },
+    "minutes_v1": 15.0,
+    "minutes_iterations": 15.2,
+    "minutes_total": 30.2,
+    "tools_total": 155,
+    "tokens_total": 26393424,
+    "tokens_fresh": 332648,
+    "tokens_out_est": 38242
+  },
+  "flutter": {
+    "name": "Flutter",
+    "agent": {
+      "v1": {
+        "sec": 1264,
+        "tools": 143,
+        "turns": 223,
+        "tokens": 19055952,
+        "fresh": 248857,
+        "cached": 18783017,
+        "out_est": 24078
+      },
+      "v2-tags": {
+        "sec": 278,
+        "tools": 29,
+        "turns": 46,
+        "tokens": 6635779,
+        "fresh": 44360,
+        "cached": 6585091,
+        "out_est": 6328
+      },
+      "v3-checklists": {
+        "sec": 254,
+        "tools": 30,
+        "turns": 44,
+        "tokens": 8322046,
+        "fresh": 40402,
+        "cached": 8275913,
+        "out_est": 5731
+      },
+      "v4-delete-undo": {
+        "sec": 155,
+        "tools": 17,
+        "turns": 25,
+        "tokens": 4927203,
+        "fresh": 26497,
+        "cached": 4897613,
+        "out_est": 3093
+      },
+      "v5-dark-mode": {
+        "sec": 256,
+        "tools": 33,
+        "turns": 49,
+        "tokens": 9689294,
+        "fresh": 43991,
+        "cached": 9640752,
+        "out_est": 4551
+      },
+      "v6-share": {
+        "sec": 151,
+        "tools": 16,
+        "turns": 25,
+        "tokens": 5824130,
+        "fresh": 16875,
+        "cached": 5805812,
+        "out_est": 1443
+      }
+    },
+    "loc": [
+      2066,
+      13
+    ],
+    "churn": {
+      "Markdown": 2253
+    },
+    "size": {
+      "simulator_app_kb": 155432,
+      "device_app_kb": 17028,
+      "device_ipa_zip_kb": 6999
+    },
+    "fidelity": {
+      "01-notes": {
+        "ssim": 0.9735,
+        "layout_ssim": 0.9958,
+        "mean_abs_diff": 1.55
+      },
+      "02-editor-preview": {
+        "ssim": 0.959,
+        "layout_ssim": 0.9787,
+        "mean_abs_diff": 2.83
+      },
+      "03-editor-edit": {
+        "ssim": 0.9265,
+        "layout_ssim": 0.9218,
+        "mean_abs_diff": 6.04
+      },
+      "04-starred": {
+        "ssim": 0.9828,
+        "layout_ssim": 0.9966,
+        "mean_abs_diff": 1.0
+      },
+      "05-settings": {
+        "ssim": 0.9885,
+        "layout_ssim": 0.9978,
+        "mean_abs_diff": 0.75
+      },
+      "06-checklist-preview": {
+        "ssim": 0.9946,
+        "layout_ssim": 0.9987,
+        "mean_abs_diff": 0.4
+      },
+      "07-notes-dark": {
+        "ssim": 0.9729,
+        "layout_ssim": 0.9956,
+        "mean_abs_diff": 1.47
+      },
+      "mean_ssim": 0.9711,
+      "mean_layout_ssim": 0.9836
+    },
+    "coldstart": {
+      "runs_ms": [
+        1063,
+        1032,
+        1032,
+        1025,
+        1023,
+        1015,
+        1038,
+        1055,
+        1015,
+        1082
+      ],
+      "median_ms": 1032.0,
+      "min_ms": 1015,
+      "max_ms": 1082
+    },
+    "monkey": {
+      "bundle": "com.mdnotes.flutter",
+      "taps": 15000,
+      "typed": 673,
+      "seconds": 10479,
+      "crash_reports": 0,
+      "segments": 1,
+      "events": [
+        "tap 679: app state 3 \u2014 relaunching",
+        "tap 1365: app state 3 \u2014 relaunching",
+        "tap 3940: app state 3 \u2014 relaunching",
+        "tap 6216: app state 3 \u2014 relaunching",
+        "tap 9422: app state 3 \u2014 relaunching",
+        "tap 10052: app state 3 \u2014 relaunching",
+        "tap 10477: app state 3 \u2014 relaunching",
+        "tap 14039: app state 3 \u2014 relaunching",
+        "tap 14339: app state 3 \u2014 relaunching",
+        "tap 14872: app state 3 \u2014 relaunching"
+      ],
+      "crashes": 0,
+      "left_app": 10
+    },
+    "qa": {
+      "total": 32,
+      "fail": []
+    },
+    "review": {
+      "functional_bugs": 0,
+      "accessibility_defects": 0,
+      "flaky_checks": 0
+    },
+    "minutes_v1": 21.1,
+    "minutes_iterations": 18.2,
+    "minutes_total": 39.3,
+    "tools_total": 268,
+    "tokens_total": 54454404,
+    "tokens_fresh": 420982,
+    "tokens_out_est": 45224
+  },
+  "kmp": {
+    "name": "Compose Multiplatform",
+    "agent": {
+      "v1": {
+        "sec": 2065,
+        "tools": 117,
+        "turns": 194,
+        "tokens": 19281450,
+        "fresh": 273033,
+        "cached": 18980757,
+        "out_est": 27660
+      },
+      "v2-tags": {
+        "sec": 413,
+        "tools": 24,
+        "turns": 40,
+        "tokens": 6522975,
+        "fresh": 42180,
+        "cached": 6475085,
+        "out_est": 5710
+      },
+      "v3-checklists": {
+        "sec": 543,
+        "tools": 29,
+        "turns": 42,
+        "tokens": 8772474,
+        "fresh": 41307,
+        "cached": 8725415,
+        "out_est": 5752
+      },
+      "v4-delete-undo": {
+        "sec": 336,
+        "tools": 16,
+        "turns": 24,
+        "tokens": 5224807,
+        "fresh": 28487,
+        "cached": 5193440,
+        "out_est": 2880
+      },
+      "v5-dark-mode": {
+        "sec": 408,
+        "tools": 28,
+        "turns": 44,
+        "tokens": 9874974,
+        "fresh": 44695,
+        "cached": 9826269,
+        "out_est": 4010
+      },
+      "v6-share": {
+        "sec": 308,
+        "tools": 14,
+        "turns": 20,
+        "tokens": 5726527,
+        "fresh": 18532,
+        "cached": 5706339,
+        "out_est": 1656
+      }
+    },
+    "loc": [
+      1863,
+      27
+    ],
+    "churn": {
+      "Markdown": 2014
+    },
+    "size": {
+      "simulator_app_kb": 39916,
+      "device_app_kb": 40020,
+      "device_ipa_zip_kb": 12122
+    },
+    "fidelity": {
+      "01-notes": {
+        "ssim": 0.992,
+        "layout_ssim": 0.9981,
+        "mean_abs_diff": 0.64
+      },
+      "02-editor-preview": {
+        "ssim": 0.9754,
+        "layout_ssim": 0.9941,
+        "mean_abs_diff": 1.73
+      },
+      "03-editor-edit": {
+        "ssim": 0.9826,
+        "layout_ssim": 0.9975,
+        "mean_abs_diff": 1.4
+      },
+      "04-starred": {
+        "ssim": 0.9952,
+        "layout_ssim": 0.998,
+        "mean_abs_diff": 0.36
+      },
+      "05-settings": {
+        "ssim": 0.9899,
+        "layout_ssim": 0.998,
+        "mean_abs_diff": 0.7
+      },
+      "06-checklist-preview": {
+        "ssim": 0.9969,
+        "layout_ssim": 0.9994,
+        "mean_abs_diff": 0.23
+      },
+      "07-notes-dark": {
+        "ssim": 0.99,
+        "layout_ssim": 0.9975,
+        "mean_abs_diff": 0.77
+      },
+      "mean_ssim": 0.9889,
+      "mean_layout_ssim": 0.9975
+    },
+    "coldstart": {
+      "runs_ms": [
+        785,
+        752,
+        757,
+        752,
+        803,
+        867,
+        757,
+        752,
+        757,
+        730
+      ],
+      "median_ms": 757.0,
+      "min_ms": 730,
+      "max_ms": 867
+    },
+    "monkey": {
+      "bundle": "com.mdnotes.kmp",
+      "taps": 15000,
+      "typed": 82,
+      "seconds": 20883,
+      "crash_reports": 0,
+      "segments": 2,
+      "events": [
+        "tap 388: app state 3 \u2014 relaunching",
+        "tap 1485: app state 3 \u2014 relaunching",
+        "tap 2201: app state 3 \u2014 relaunching"
+      ],
+      "crashes": 0,
+      "left_app": 3
+    },
+    "qa": {
+      "total": 32,
+      "fail": []
+    },
+    "review": {
+      "functional_bugs": 0,
+      "accessibility_defects": 0,
+      "flaky_checks": 0
+    },
+    "minutes_v1": 34.4,
+    "minutes_iterations": 33.5,
+    "minutes_total": 67.9,
+    "tools_total": 228,
+    "tokens_total": 55403207,
+    "tokens_fresh": 448234,
+    "tokens_out_est": 47668
+  },
+  "angular-native": {
+    "name": "Angular Native",
+    "agent": {
+      "v1": {
+        "sec": 1001,
+        "tools": 84,
+        "turns": 138,
+        "tokens": 10780680,
+        "fresh": 224815,
+        "cached": 10537891,
+        "out_est": 17974
+      },
+      "v2-tags": {
+        "sec": 276,
+        "tools": 22,
+        "turns": 34,
+        "tokens": 4754031,
+        "fresh": 32380,
+        "cached": 4716467,
+        "out_est": 5184
+      },
+      "v3-checklists": {
+        "sec": 262,
+        "tools": 23,
+        "turns": 31,
+        "tokens": 4232397,
+        "fresh": 32496,
+        "cached": 4195435,
+        "out_est": 4466
+      },
+      "v4-delete-undo": {
+        "sec": 240,
+        "tools": 22,
+        "turns": 32,
+        "tokens": 5387270,
+        "fresh": 35023,
+        "cached": 5348974,
+        "out_est": 3273
+      },
+      "v5-dark-mode": {
+        "sec": 271,
+        "tools": 30,
+        "turns": 47,
+        "tokens": 8291838,
+        "fresh": 46708,
+        "cached": 8241656,
+        "out_est": 3474
+      },
+      "v6-share": {
+        "sec": 183,
+        "tools": 16,
+        "turns": 21,
+        "tokens": 4273540,
+        "fresh": 18381,
+        "cached": 4253660,
+        "out_est": 1499
+      }
+    },
+    "loc": [
+      1817,
+      19
+    ],
+    "churn": {
+      "Markdown": 1971
+    },
+    "size": {
+      "simulator_app_kb": 58020,
+      "device_app_kb": 30896,
+      "device_ipa_zip_kb": 9117
+    },
+    "fidelity": {
+      "01-notes": {
+        "ssim": 0.8917,
+        "layout_ssim": 0.9287,
+        "mean_abs_diff": 7.03
+      },
+      "02-editor-preview": {
+        "ssim": 0.8509,
+        "layout_ssim": 0.7546,
+        "mean_abs_diff": 15.31
+      },
+      "03-editor-edit": {
+        "ssim": 0.9224,
+        "layout_ssim": 0.9186,
+        "mean_abs_diff": 5.98
+      },
+      "04-starred": {
+        "ssim": 0.9313,
+        "layout_ssim": 0.9528,
+        "mean_abs_diff": 4.57
+      },
+      "05-settings": {
+        "ssim": 0.9426,
+        "layout_ssim": 0.9596,
+        "mean_abs_diff": 3.27
+      },
+      "06-checklist-preview": {
+        "ssim": 0.9655,
+        "layout_ssim": 0.9741,
+        "mean_abs_diff": 2.62
+      },
+      "07-notes-dark": {
+        "ssim": 0.8881,
+        "layout_ssim": 0.9264,
+        "mean_abs_diff": 6.81
+      },
+      "mean_ssim": 0.9132,
+      "mean_layout_ssim": 0.9164
+    },
+    "coldstart": {
+      "runs_ms": [
+        685,
+        672,
+        677,
+        667,
+        800,
+        683,
+        715,
+        677,
+        667,
+        678
+      ],
+      "median_ms": 677.5,
+      "min_ms": 667,
+      "max_ms": 800
+    },
+    "monkey": {
+      "bundle": "com.mdnotes.angularnative",
+      "taps": 15000,
+      "typed": 87,
+      "seconds": 21904,
+      "crash_reports": 0,
+      "segments": 1,
+      "events": [
+        "tap 673: app state 3 \u2014 relaunching",
+        "tap 1302: app state 3 \u2014 relaunching",
+        "tap 1994: app state 3 \u2014 relaunching"
+      ],
+      "crashes": 0,
+      "left_app": 3
+    },
+    "qa": {
+      "total": 32,
+      "fail": [
+        "test07_searchFiltersAndShowsEmptyState"
+      ]
+    },
+    "review": {
+      "functional_bugs": 0,
+      "accessibility_defects": 0,
+      "flaky_checks": 1
+    },
+    "minutes_v1": 16.7,
+    "minutes_iterations": 20.5,
+    "minutes_total": 37.2,
+    "tools_total": 197,
+    "tokens_total": 37719756,
+    "tokens_fresh": 389803,
+    "tokens_out_est": 35870
+  },
+  "lynx": {
+    "name": "Lynx",
+    "agent": {
+      "v1": {
+        "sec": 1960,
+        "tools": 139,
+        "turns": 225,
+        "tokens": 22018659,
+        "fresh": 562573,
+        "cached": 21428888,
+        "out_est": 27198
+      },
+      "v2-tags": {
+        "sec": 171,
+        "tools": 20,
+        "turns": 31,
+        "tokens": 5236635,
+        "fresh": 33461,
+        "cached": 5197408,
+        "out_est": 5766
+      },
+      "v3-checklists": {
+        "sec": 132,
+        "tools": 18,
+        "turns": 26,
+        "tokens": 4701478,
+        "fresh": 22496,
+        "cached": 4675057,
+        "out_est": 3925
+      },
+      "v4-delete-undo": {
+        "sec": 145,
+        "tools": 23,
+        "turns": 36,
+        "tokens": 5804834,
+        "fresh": 32840,
+        "cached": 5768655,
+        "out_est": 3339
+      },
+      "v5-dark-mode": {
+        "sec": 280,
+        "tools": 33,
+        "turns": 49,
+        "tokens": 8917020,
+        "fresh": 43239,
+        "cached": 8867833,
+        "out_est": 5948
+      },
+      "v6-share": {
+        "sec": 112,
+        "tools": 13,
+        "turns": 18,
+        "tokens": 3871061,
+        "fresh": 16034,
+        "cached": 3853482,
+        "out_est": 1545
+      }
+    },
+    "loc": [
+      2029,
+      35
+    ],
+    "churn": {
+      "Markdown": 2275
+    },
+    "size": {
+      "simulator_app_kb": 39180,
+      "device_app_kb": 19896,
+      "device_ipa_zip_kb": 5847
+    },
+    "fidelity": {
+      "01-notes": {
+        "ssim": 0.8948,
+        "layout_ssim": 0.9291,
+        "mean_abs_diff": 7.0
+      },
+      "02-editor-preview": {
+        "ssim": 0.859,
+        "layout_ssim": 0.8358,
+        "mean_abs_diff": 19.32
+      },
+      "03-editor-edit": {
+        "ssim": 0.9229,
+        "layout_ssim": 0.9187,
+        "mean_abs_diff": 5.95
+      },
+      "04-starred": {
+        "ssim": 0.9359,
+        "layout_ssim": 0.9533,
+        "mean_abs_diff": 4.51
+      },
+      "05-settings": {
+        "ssim": 0.9684,
+        "layout_ssim": 0.9782,
+        "mean_abs_diff": 2.52
+      },
+      "06-checklist-preview": {
+        "ssim": 0.966,
+        "layout_ssim": 0.9742,
+        "mean_abs_diff": 2.61
+      },
+      "07-notes-dark": {
+        "ssim": 0.892,
+        "layout_ssim": 0.9271,
+        "mean_abs_diff": 6.73
+      },
+      "mean_ssim": 0.9199,
+      "mean_layout_ssim": 0.9309
+    },
+    "coldstart": {
+      "runs_ms": [
+        683,
+        685,
+        662,
+        665,
+        672,
+        678,
+        667,
+        667,
+        665,
+        672
+      ],
+      "median_ms": 669.5,
+      "min_ms": 662,
+      "max_ms": 685
+    },
+    "monkey": {
+      "bundle": "com.mdnotes.lynx",
+      "taps": 15000,
+      "typed": 75,
+      "seconds": 12958,
+      "crash_reports": 0,
+      "segments": 1,
+      "events": [
+        "tap 617: app state 3 \u2014 relaunching",
+        "tap 2185: app state 3 \u2014 relaunching"
+      ],
+      "crashes": 0,
+      "left_app": 2
+    },
+    "qa": {
+      "total": 32,
+      "fail": [
+        "test02_cardShowsSnippetAndDate",
+        "test09_newNoteIsSavedAtTop",
+        "test10_emptyNoteIsDeleted",
+        "test12_editUpdatesDateOrderAndPersists",
+        "test24_newTagAppearsInFilterRow",
+        "test25_checklistProgressOnCard",
+        "test26_toggleTaskRewritesMarkdownAndPersists",
+        "test27_deleteAndUndo"
+      ]
+    },
+    "review": {
+      "functional_bugs": 0,
+      "accessibility_defects": 2,
+      "flaky_checks": 0
+    },
+    "minutes_v1": 32.7,
+    "minutes_iterations": 14.0,
+    "minutes_total": 46.7,
+    "tools_total": 246,
+    "tokens_total": 50549687,
+    "tokens_fresh": 710643,
+    "tokens_out_est": 47721
+  }
+}

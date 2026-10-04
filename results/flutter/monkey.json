@@ -1,0 +1,22 @@
+{
+  "bundle": "com.mdnotes.flutter",
+  "taps": 15000,
+  "typed": 673,
+  "seconds": 10479,
+  "crash_reports": 0,
+  "segments": 1,
+  "events": [
+    "tap 679: app state 3 \u2014 relaunching",
+    "tap 1365: app state 3 \u2014 relaunching",
+    "tap 3940: app state 3 \u2014 relaunching",
+    "tap 6216: app state 3 \u2014 relaunching",
+    "tap 9422: app state 3 \u2014 relaunching",
+    "tap 10052: app state 3 \u2014 relaunching",
+    "tap 10477: app state 3 \u2014 relaunching",
+    "tap 14039: app state 3 \u2014 relaunching",
+    "tap 14339: app state 3 \u2014 relaunching",
+    "tap 14872: app state 3 \u2014 relaunching"
+  ],
+  "crashes": 0,
+  "left_app": 10
+}
