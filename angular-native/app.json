@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Markdown Notes",
+    "slug": "markdown-notes",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mdnotes.angularnative",
+      "infoPlist": {
+        "UISupportedInterfaceOrientations": [
+          "UIInterfaceOrientationPortrait"
+        ]
+      }
+    },
+    "scheme": "angularnative",
+    "extra": {
+      "router": {
+        "root": "src/app"
+      }
+    },
+    "plugins": [
+      "@ng-native/metro",
+      "expo-sqlite"
+    ],
+    "android": {
+      "package": "com.mdnotes.angularnative"
+    }
+  }
+}
