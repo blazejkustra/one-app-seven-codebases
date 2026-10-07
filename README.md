@@ -1,6 +1,6 @@
 # One app, seven codebases, built by agents
 
-<img src="results/poster-hook.png" alt="We built the same app 7 times: TypeScript (React Native, Angular Native, Lynx), Swift, Kotlin (native Android, Compose MP) and Dart (Flutter). Every app tested with Argent" width="480">
+<img src="results/poster-7-ways.png" alt="We built the same app 7 times: TypeScript (React Native, Angular Native, Lynx), Swift, Kotlin (native Android, Compose MP) and Dart (Flutter). Every app tested with Argent" width="480">
 
 The same **Markdown Notes** app built by AI agents (Claude Opus 5.5) seven times, in four languages:
 **[Swift](https://developer.apple.com/swift/)** (iOS) and **[Kotlin](https://developer.android.com/kotlin)** (Android) native apps,
@@ -16,7 +16,7 @@ simulator or emulator with **[Argent](https://argent.swmansion.com)**.
 
 ### Shipping iOS + Android
 
-<img src="results/poster.png" alt="Agent minutes to ship iOS + Android, iOS and Android parts shown separately: React Native 35.8, Angular Native 46.8, Flutter 47.8, Lynx 67.8, Native (Swift + Kotlin) 69.4, Compose MP 85.1" width="480">
+<img src="results/poster-minutes.png" alt="Agent minutes to ship iOS + Android, iOS and Android parts shown separately: React Native 35.8, Angular Native 46.8, Flutter 47.8, Lynx 67.8, Native (Swift + Kotlin) 69.4, Compose MP 85.1" width="480">
 
 | | Agent minutes | Tool calls | Tokens (mostly cached) | API cost (est.)³ | Codebases |
 |---|---|---|---|---|---|
